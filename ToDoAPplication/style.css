@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.toDo{
+    width:400px;
+    margin:50px auto;
+}
+
+input{
+    width:250px;
+    padding:8px;
+}
+
+button{
+    padding:8px 12px;
+    cursor:pointer;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 0;
+}
