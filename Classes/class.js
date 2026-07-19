@@ -26,3 +26,13 @@ function Student(name, age) {
 const s1 = new Student("A",20);
 const s2 = new Student("B",21);
 const s3 = new Student("C",19);
+
+class Marks{
+    constructor(math,english){
+        this.math=math;
+        this.english=english
+    }
+    totalMarks(){
+        return this.math+this.english;
+    }
+}
